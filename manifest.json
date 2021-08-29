@@ -1,0 +1,72 @@
+{
+  "short_name": "AltDns Generator",
+  "name": "AltDns Generator.js",
+  "description": "AltDns Generator.js Is An Application That Generates &amp; Resolves DNS Wildcards",
+  "icons": [
+    {
+      "src": "AltDnsFavicon64x64.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "AltDnsLogo16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo24x24.png",
+      "sizes": "24x24",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo64x64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo1024x1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "AltDnsLogo1118x605.png",
+      "type": "image/png",
+      "sizes": "1118x605",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "scope": "/",
+  "orientation": "portrait"
+}
