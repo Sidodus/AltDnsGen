@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AltDnsGen/static/css/main.b415323f.chunk.css",
-    "main.js": "/AltDnsGen/static/js/main.6d92faba.chunk.js",
-    "main.js.map": "/AltDnsGen/static/js/main.6d92faba.chunk.js.map",
+    "main.js": "/AltDnsGen/static/js/main.223c7327.chunk.js",
+    "main.js.map": "/AltDnsGen/static/js/main.223c7327.chunk.js.map",
     "runtime-main.js": "/AltDnsGen/static/js/runtime-main.ae58e07a.js",
     "runtime-main.js.map": "/AltDnsGen/static/js/runtime-main.ae58e07a.js.map",
     "static/css/2.c7844391.chunk.css": "/AltDnsGen/static/css/2.c7844391.chunk.css",
@@ -18,7 +18,7 @@
     "static/css/2.c7844391.chunk.css.map": "/AltDnsGen/static/css/2.c7844391.chunk.css.map",
     "static/css/main.b415323f.chunk.css.map": "/AltDnsGen/static/css/main.b415323f.chunk.css.map",
     "static/js/2.8ca26132.chunk.js.LICENSE.txt": "/AltDnsGen/static/js/2.8ca26132.chunk.js.LICENSE.txt",
-    "static/media/dns-Jhaddix.31d6cfe0.txt": "/AltDnsGen/static/media/dns-Jhaddix.31d6cfe0.txt",
+    "static/media/dns-Jhaddix.a525c307.txt": "/AltDnsGen/static/media/dns-Jhaddix.a525c307.txt",
     "static/media/namelist.88bca14b.txt": "/AltDnsGen/static/media/namelist.88bca14b.txt",
     "static/media/shubs-subdomains.6d834380.txt": "/AltDnsGen/static/media/shubs-subdomains.6d834380.txt",
     "static/media/subdomains-top1million-5000.0afac7d3.txt": "/AltDnsGen/static/media/subdomains-top1million-5000.0afac7d3.txt"
@@ -28,6 +28,6 @@
     "static/css/2.c7844391.chunk.css",
     "static/js/2.8ca26132.chunk.js",
     "static/css/main.b415323f.chunk.css",
-    "static/js/main.6d92faba.chunk.js"
+    "static/js/main.223c7327.chunk.js"
   ]
 }
