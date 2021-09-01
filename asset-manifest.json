@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AltDnsGen/static/css/main.b415323f.chunk.css",
-    "main.js": "/AltDnsGen/static/js/main.223c7327.chunk.js",
-    "main.js.map": "/AltDnsGen/static/js/main.223c7327.chunk.js.map",
+    "main.js": "/AltDnsGen/static/js/main.798a5e47.chunk.js",
+    "main.js.map": "/AltDnsGen/static/js/main.798a5e47.chunk.js.map",
     "runtime-main.js": "/AltDnsGen/static/js/runtime-main.ae58e07a.js",
     "runtime-main.js.map": "/AltDnsGen/static/js/runtime-main.ae58e07a.js.map",
     "static/css/2.c7844391.chunk.css": "/AltDnsGen/static/css/2.c7844391.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.c7844391.chunk.css",
     "static/js/2.8ca26132.chunk.js",
     "static/css/main.b415323f.chunk.css",
-    "static/js/main.223c7327.chunk.js"
+    "static/js/main.798a5e47.chunk.js"
   ]
 }
