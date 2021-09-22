@@ -1,7 +1,7 @@
 {
   "short_name": "AltDns Generator",
   "name": "AltDns Generator.js",
-  "description": "AltDns Generator.js Is An Application That Generates &amp; Resolves DNS Wildcards",
+  "description": "AltDns Generator.js Is An Application That Generates &amp; Intelligently Resolves DNS Wildcards",
   "icons": [
     {
       "src": "AltDnsFavicon64x64.ico",

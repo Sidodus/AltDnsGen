@@ -5,7 +5,7 @@
 <h6 align= "center" style="color: grey; margin-top: -10px"><small><a href="#">... #<em>AltDnsGenerator.js</em></a></small></h6><br />
 
 <blockquote align="center" style="font-size: 1.5em">
-    <em>AltDns Generator.js</em> Is An Application That Generates &amp; Resolves DNS Wildcards". </br></br>
+    <em>AltDns Generator.js</em> Is An Application That Generates &amp; Intelligently Resolves DNS Wildcards". </br></br>
 </blockquote>
 </hr>
 <div align="center" style="font-size: 1.2em; font-weight: 900"><ins><em>AltDns Generator.js</em> Consists Of  3 Main Process</br></ins></div>
@@ -24,14 +24,14 @@
 <br />
 
 <h2 align="center">How It Works</h2>
-<h3>1). <ins><em>Subdomain Wildcard Locator.js:</em></ins></h3>
+<h3>1). <ins><em>Subdomain Wildcard Locator.js</em></ins>:</h3>
 <ul style="font-weight: 500">
   <li>Pass In Valid Subdomains</li>
   <li><em>Subdomain Wildcard Locator.js</em> Would  Process All The Subdomains And Return Only <em>UNIQUE</em> Subdomains (no duplicates) </li>
   <li><em>Subdomain Wildcard Locator.js</em> Would Then Process All The Unique Subdomains And Return All The <em>POTENTIAL</em> Wildcard Areas Within Those Subdomains <code>e.g *.exampledns.com</code></li> 
 </ul>
 
-<h3>2). <ins><em>AltDns Generator.js:</em></ins></h3>
+<h3>2). <ins><em>AltDns Generator.js</em></ins>:</h3>
 <ul style="font-weight: 500">
   <li><em>AltDns Generator.js </em> Takes In 2 Arguments</li>
     <ol>
@@ -47,13 +47,32 @@
       <code>git.admin.dev.exampledns.com</code> <br/>
       <code>admin.git.dev.exampledns.com</code> <br/>
       <code>admin.dev.git.exampledns.com</code>
-    <ol>
+    </ol>
+      <li>IF YOU ALREADY HAVE YOUR GENERATED DOMAINS & JUST WANT TO TEST IT'S VALIDITY WITHOUT NEEDING TO GENERATE NEW ALTDNS</li>
+        <ul>
+          <li>Input Your Domains Into The Domains Field</li>
+          <li>Input <code>PASS</code> (in Caps) into the WordList Field.</li>
+        </ul>
 </ul>
 
-<h3>3). <ins><em>DNS Resolver:</em></ins></h3>
+<h3>3). <ins><em>DNS Resolver</em></ins>:</h3>
 <ul style="font-weight: 500">
   <li>Click On The <em>Resolve DNS</em> Button In The Menu Bar Of <em>AltDns Generator.js</em> An All Generated AltDns Would Be Sent To The Server For Processing</li>
   <li>Wait For <em>DNS Resolver</em> To Finish It's Job Then A Process Completion Message Would Appear On Your Screen & Result Would Be Populated As <em>Resolved DNS</em> OR Where It Fits Depending On The Outcome </li>
 </ul>
 
+<h3><em><ins>Also</ins>:</em></h3>
+<p>You Can Resolve Domains In Bash Terminal (CMD) Using: <br/>
+
+```sh
+cat inputDomains.txt | xargs -0 node resolveDns_bash.js
+
+# Save Live Domains To File
+cat inputDomains.txt | xargs -0 node resolveDns_bash.js | tee --append /locationTo/saveLiveDomains.txt
+```
+
+</p>
+
+> Use Online @ <a href="https://sidodus.github.io/AltDnsGen/" target="_blank" rel="noreferrer"> AltDnsGen</a>.
+> <br/>
 > Developed By <a href="https://www.linkedin.com/in/saheed-odulaja-75111337" target="_blank" rel="noreferrer"> Saheed Odulaja</a>.
