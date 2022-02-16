@@ -8,15 +8,19 @@
     <em>AltDns Generator.js</em> Is An Application That Generates &amp; Intelligently Resolves DNS Wildcards". </br></br>
 </blockquote>
 </hr>
-<div align="center" style="font-size: 1.2em; font-weight: 900"><ins><em>AltDns Generator.js</em> Consists Of  3 Main Process</br></ins></div>
+<div align="center" style="font-size: 1.2em; font-weight: 900"><ins><em>AltDns Generator.js</em> Consists Of  3 Main, And 1 Optional Process</br></ins></div>
 <ol>
-  <li style="font-weight: 500"><em>Subdomain Wildcard Locator.js: </em>
+  <li style="font-weight: 500"><em>Subdomain Wildcard Locator.js<sup>(1)</sup>: </em>
   <br/>
-  <span style="color: grey; font-size: 0.9em; margin-left: 3em">Locates all wildcard points</span></li>
-  <li style="font-weight: 500"><em>AltDns Generator.js:</em>
+  <span style="color: grey; font-size: 0.9em; margin-left: 3em">Locates all possible wildcard points</span></li>
+  <li style="font-weight: 500"><em>AltDns Generator.js<sup>(2)</sup>:</em>
   <br/>
   <span style="color: grey; font-size: 0.9em; margin-left: 3em">Generates potential DNS wildcards</span></li>
-  <li style="font-weight: 500"><em>DNS Resolver:</em>
+  <li style="font-weight: 500"><em>Set Wordlist Gen Parameters<sup>(3)</sup>:</em>
+  <em>OPTIONAL</em>
+  <br/>
+  <span style="color: grey; font-size: 0.9em; margin-left: 3em">Set parameters for generating wordlist From domain names.</span></li>
+  <li style="font-weight: 500"><em>DNS Resolver<sup>(4)</sup>:</em>
   <br/>
   <span style="color: grey; font-size: 0.9em; margin-left: 3em">Resolves all generated wildcards</span></li>
 </ol>
@@ -55,14 +59,25 @@
         </ul>
 </ul>
 
-<h3>3). <ins><em>DNS Resolver</em></ins>:</h3>
+<h3>3). <ins><em>Set Wordlist Generator Parameters</em></ins>:</h3>
+  <code>OPTIONAL</code>
+<ul style="font-weight: 500">
+  <li>Setting Parameters For Generating Wordlist From Domain Names...
+    <ol>
+      <li>Set Min Word length To Return. <em>(default min length is 3)</em></li>
+      <li>Set Max Word length To Return. <em>(default max length is 15)</em></li>
+    </ol>
+  </li>
+</ul>
+
+<h3>4). <ins><em>DNS Resolver</em></ins>:</h3>
 <ul style="font-weight: 500">
   <li>Click On The <em>Resolve DNS</em> Button In The Menu Bar Of <em>AltDns Generator.js</em> An All Generated AltDns Would Be Sent To The Server For Processing</li>
   <li>Wait For <em>DNS Resolver</em> To Finish It's Job Then A Process Completion Message Would Appear On Your Screen & Result Would Be Populated As <em>Resolved DNS</em> OR Where It Fits Depending On The Outcome </li>
 </ul>
 
 <h3><em><ins>Also</ins>:</em></h3>
-<p>You Can Resolve Domains In Bash Terminal (CMD) Using: <br/>
+<p>You Can Also Intelligently Resolve Domains In Bash Terminal (CMD) Using: <br/>
 
 ```sh
 cat inputDomains.txt | xargs -0 node resolveDns_bash.js
@@ -72,6 +87,8 @@ cat inputDomains.txt | xargs -0 node resolveDns_bash.js | tee --append /location
 ```
 
 </p>
+
+<p>"homepage": "https://sidodus.github.io/AltDnsGen/"</p>
 
 > Use Online @ <a href="https://sidodus.github.io/AltDnsGen/" target="_blank" rel="noreferrer"> AltDnsGen</a>.
 > <br/>
