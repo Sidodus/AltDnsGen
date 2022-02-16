@@ -5,7 +5,7 @@
 <h6 align= "center" style="color: grey; margin-top: -10px"><small><a href="#">... #<em>AltDnsGenerator.js</em></a></small></h6><br />
 
 <blockquote align="center" style="font-size: 1.5em">
-    <em>AltDns Generator.js</em> Is An Application That Generates &amp; Intelligently Resolves DNS Wildcards". </br></br>
+    <em>AltDns Generator.js</em> Is An Application That Generates &amp; Intelligently Resolves Dynamic DNS Wildcards". </br></br>
 </blockquote>
 </hr>
 <div align="center" style="font-size: 1.2em; font-weight: 900"><ins><em>AltDns Generator.js</em> Consists Of  3 Main, And 1 Optional Process</br></ins></div>
@@ -22,7 +22,7 @@
   <span style="color: grey; font-size: 0.9em; margin-left: 3em">Set parameters for generating wordlist From domain names.</span></li>
   <li style="font-weight: 500"><em>DNS Resolver<sup>(4)</sup>:</em>
   <br/>
-  <span style="color: grey; font-size: 0.9em; margin-left: 3em">Resolves all generated wildcards</span></li>
+  <span style="color: grey; font-size: 0.9em; margin-left: 3em">Dynamically Resolves all generated wildcards</span></li>
 </ol>
 
 <br />
