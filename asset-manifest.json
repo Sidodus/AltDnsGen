@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.9a485928.css",
-    "main.js": "./static/js/main.91afe353.js",
-    "static/js/748.5fc8f0e7.chunk.js": "./static/js/748.5fc8f0e7.chunk.js",
-    "static/js/377.d25a1dbf.chunk.js": "./static/js/377.d25a1dbf.chunk.js",
-    "static/media/shubs-subdomains.txt": "./static/media/shubs-subdomains.6d834380e8d8056e2e11.txt",
-    "service-worker.js": "./service-worker.js",
-    "static/media/subdomains-top1million-5000.txt": "./static/media/subdomains-top1million-5000.0afac7d32035f717beeb.txt",
-    "static/media/namelist.txt": "./static/media/namelist.88bca14bab0016d043bf.txt",
-    "index.html": "./index.html",
-    "static/media/dns-Jhaddix.txt": "./static/media/dns-Jhaddix.a525c30702b9cb21fa7d.txt",
-    "main.9a485928.css.map": "./static/css/main.9a485928.css.map",
-    "main.91afe353.js.map": "./static/js/main.91afe353.js.map",
-    "748.5fc8f0e7.chunk.js.map": "./static/js/748.5fc8f0e7.chunk.js.map",
-    "377.d25a1dbf.chunk.js.map": "./static/js/377.d25a1dbf.chunk.js.map"
+    "main.css": "/AltDnsGen/static/css/main.9a485928.css",
+    "main.js": "/AltDnsGen/static/js/main.6b2abc26.js",
+    "static/js/748.5fc8f0e7.chunk.js": "/AltDnsGen/static/js/748.5fc8f0e7.chunk.js",
+    "static/js/377.d25a1dbf.chunk.js": "/AltDnsGen/static/js/377.d25a1dbf.chunk.js",
+    "static/media/shubs-subdomains.txt": "/AltDnsGen/static/media/shubs-subdomains.6d834380e8d8056e2e11.txt",
+    "service-worker.js": "/AltDnsGen/service-worker.js",
+    "static/media/subdomains-top1million-5000.txt": "/AltDnsGen/static/media/subdomains-top1million-5000.0afac7d32035f717beeb.txt",
+    "static/media/namelist.txt": "/AltDnsGen/static/media/namelist.88bca14bab0016d043bf.txt",
+    "index.html": "/AltDnsGen/index.html",
+    "static/media/dns-Jhaddix.txt": "/AltDnsGen/static/media/dns-Jhaddix.a525c30702b9cb21fa7d.txt",
+    "main.9a485928.css.map": "/AltDnsGen/static/css/main.9a485928.css.map",
+    "main.6b2abc26.js.map": "/AltDnsGen/static/js/main.6b2abc26.js.map",
+    "748.5fc8f0e7.chunk.js.map": "/AltDnsGen/static/js/748.5fc8f0e7.chunk.js.map",
+    "377.d25a1dbf.chunk.js.map": "/AltDnsGen/static/js/377.d25a1dbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a485928.css",
-    "static/js/main.91afe353.js"
+    "static/js/main.6b2abc26.js"
   ]
 }
