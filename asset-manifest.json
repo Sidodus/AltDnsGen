@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AltDnsGen/static/css/main.9a485928.css",
-    "main.js": "/AltDnsGen/static/js/main.6b2abc26.js",
+    "main.js": "/AltDnsGen/static/js/main.4b306fe2.js",
     "static/js/748.5fc8f0e7.chunk.js": "/AltDnsGen/static/js/748.5fc8f0e7.chunk.js",
     "static/js/377.d25a1dbf.chunk.js": "/AltDnsGen/static/js/377.d25a1dbf.chunk.js",
     "static/media/shubs-subdomains.txt": "/AltDnsGen/static/media/shubs-subdomains.6d834380e8d8056e2e11.txt",
@@ -11,12 +11,12 @@
     "index.html": "/AltDnsGen/index.html",
     "static/media/dns-Jhaddix.txt": "/AltDnsGen/static/media/dns-Jhaddix.a525c30702b9cb21fa7d.txt",
     "main.9a485928.css.map": "/AltDnsGen/static/css/main.9a485928.css.map",
-    "main.6b2abc26.js.map": "/AltDnsGen/static/js/main.6b2abc26.js.map",
+    "main.4b306fe2.js.map": "/AltDnsGen/static/js/main.4b306fe2.js.map",
     "748.5fc8f0e7.chunk.js.map": "/AltDnsGen/static/js/748.5fc8f0e7.chunk.js.map",
     "377.d25a1dbf.chunk.js.map": "/AltDnsGen/static/js/377.d25a1dbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a485928.css",
-    "static/js/main.6b2abc26.js"
+    "static/js/main.4b306fe2.js"
   ]
 }
